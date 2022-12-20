@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2e3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfirstfxapp.HomeController">
+    <children>
+        <AnchorPane layoutY="93.0" prefHeight="307.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label contentDisplay="CENTER" layoutX="281.0" layoutY="27.0" prefHeight="49.0" prefWidth="131.0" text="Привет Мир!" textFill="#656161">
+                    <font>
+                        <Font name="Bell MT" size="22.0" />
+                    </font>
+                </Label>
+            <ImageView fx:id="imageButtonHome" fitHeight="188.0" fitWidth="350.0" layoutX="172.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@1.jpg" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label contentDisplay="CENTER" layoutX="268.0" layoutY="24.0" prefHeight="49.0" prefWidth="165.0" text="ItProger" textFill="WHITE">
+            <font>
+                <Font name="Bell MT" size="41.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
